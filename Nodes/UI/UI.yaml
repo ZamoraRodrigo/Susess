@@ -89,6 +89,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{Session}/IsWeb"
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -109,6 +114,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 133.0
+    - Name: BlinkWhenActive
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
   - Name: Label1
     Type: Label
     Children:
